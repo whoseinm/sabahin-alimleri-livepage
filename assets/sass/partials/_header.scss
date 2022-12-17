@@ -1,0 +1,59 @@
+#header{
+
+	background:url('../images/content/bg1.jpg');
+
+	h1{
+		font-family: 'Amatic SC', cursive;
+		color:white;
+		font-weight: bold;
+		font-size: 80px;
+		text-align: center;
+		padding-top: 70px;
+	}
+	
+	img{
+		margin-bottom: 50px;
+		display: inline-block;
+	}
+
+	.text{
+		color:white;
+		margin-left: -100px;
+		margin-top: 150px;
+		display: inline-block;
+		width: 400px;
+
+		button{
+
+			color:white;
+			border:none;
+			background:#FE6500;
+			border-radius:5px;
+			padding:15px;
+			transition: all .4s ease;
+			font-weight: bold;
+			margin-top: 15px;
+			&:hover{
+				background:#CB5100;
+			}
+		}
+	}
+
+	@media(max-width:967px){
+		
+		h1{
+			font-size: 50px;
+		}
+
+		.text{
+			width:auto;
+			float: none;
+			text-align: center;
+			margin-left: 0;
+			margin-top: 10px;
+			margin-bottom:60px;
+		}
+
+	}
+
+}

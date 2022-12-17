@@ -1,0 +1,72 @@
+#contactContent{
+	margin-top:50px;
+	.find-us{
+
+		h2{
+			color:#554E9F;
+			font-family: 'Amatic SC', cursive;
+			font-size: 50px;
+			font-weight: bold;
+		}
+
+		.heading{
+			font-weight: bold;
+			color:$menuSC;			
+		}
+
+		span{
+			font-weight:bold;
+		}
+
+		.office,.hours{
+			margin-top: 50px;
+		}
+
+	}
+
+	.form{
+		h2{
+			color:#554E9F;
+			font-family: 'Amatic SC', cursive;
+			font-size: 50px;
+			font-weight: bold;
+		}
+
+		form input[type='submit']{
+			color:white;
+			background:#554E9F;
+			border-radius:5px;
+			padding:15px;
+			border:2px solid #554E9F;
+			transition: all .4s ease;
+			font-weight: bold;
+			margin-top: 15px;
+			&:hover{
+				background:#433D7D;
+				text-decoration: none;
+				color:white;
+			}
+		}
+
+		form input[type='reset']{
+
+			color:#434345;
+			background:white;
+			border-radius:5px;
+			border:2px solid #D3DBE8;
+			padding:15px;
+			transition: all .4s ease;
+			font-weight: bold;
+			margin-top: 15px;
+			margin-left: 15px;
+			&:hover{
+				background:#434345;
+				border:2px solid #434345;
+				text-decoration: none;
+				color:white;
+			}
+
+		}
+	}
+
+}

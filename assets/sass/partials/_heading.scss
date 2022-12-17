@@ -1,0 +1,31 @@
+#heading{
+	background:url('../images/content/bg1.jpg');
+	h2{
+		color:white;
+		font-family: 'Amatic SC', cursive;
+		font-size: 80px;
+		font-weight: bold;
+		line-height: 1.25;
+		padding:100px 0px;
+		display: inline-block;
+		float: left;
+	}
+
+	ul{
+		color:white;
+		padding:150px 0px;
+		display: inline-block;
+
+		a{
+			color:#FE6500;
+		}
+	}
+
+	@media(max-width:767px){
+		.link{
+			text-align: center;
+			float: none !important;
+		}
+	}
+
+}

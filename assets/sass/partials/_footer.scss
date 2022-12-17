@@ -1,0 +1,58 @@
+#footer{
+	.footerSection{
+		margin-top: 50px;
+	}
+	#logo{
+		.sm{
+			font-size: 15px;
+			padding:0 5px;
+			color:#9B9B9B;
+			text-decoration: none;
+
+			&:hover{
+				color:#554E9F;
+			}
+		}
+	}
+
+	#newsletter{
+		h4{
+			font-weight: bold;
+		}
+		
+		.first{
+			background:#212121;
+			color:white;
+		}
+		.second{
+			background:#554E9F;
+			color:white;
+		}
+	}
+
+	#info{
+		background:none;
+		
+		ul{margin:0;padding:0;}
+
+		ul li{
+			padding:10px;
+			list-style-type:none;
+			font-size:17px;
+
+			i{
+				color:#554E9F;
+			}
+
+			a,span{
+				color:black;
+			}
+		}
+
+	}
+
+	@media(max-width:967px){
+		text-align: center;
+	}
+
+}

@@ -1,0 +1,44 @@
+#testimonials{
+
+	background:url('../images/content/bg2.jpg');
+
+	h2{
+		color:white;
+		font-family: 'Amatic SC', cursive;
+		font-size: 50px;
+		font-weight: bold;
+		text-align: center;
+		margin-top: 100px;
+	}
+
+	.testimoni{
+		margin-top: 50px;
+		margin-bottom:100px;
+		.commentBox{
+			
+			background:white;
+			height: 150px;
+			border-radius: 5px;
+			padding:20px 20px;
+		}
+
+		.authorBox{
+			margin-top: -50px;
+			margin-left: 30px;
+			img{
+				border-radius:100%;
+			}
+
+			h4{
+				color:white;
+				font-weight: bold;
+			}
+
+			span{
+				color:white;
+			}
+		}
+
+	}
+
+}

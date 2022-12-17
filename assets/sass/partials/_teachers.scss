@@ -1,0 +1,43 @@
+#teachers{
+	background:#F7F7F7;
+	h2{	
+		color:#554E9F;
+		font-family: 'Amatic SC', cursive;
+		font-size: 50px;
+		font-weight: bold;
+		text-align: center;
+		margin-top: 100px;
+	}
+
+	p{
+		margin-top: 30px;
+	}
+
+	.teachers .teacher{
+		margin:30px 0px;
+		.aboutTeacher{
+			h3{
+				font-weight: bold;
+				color:#FE6500;
+				transition: all .4s ease;
+
+				&:hover{
+					cursor: pointer;
+					color:#554E9F;
+				}
+			}
+
+			i{
+				color:#9B9B9B;
+				line-height:2;
+			}
+
+			a{
+				color:#43434A;
+				line-height:2;
+			}
+		}
+
+	}
+
+}

@@ -1,0 +1,35 @@
+#why{
+
+	background:#F7F7F7;
+
+	h2{
+		font-family: 'Amatic SC', cursive;
+		text-align: center;
+		font-weight: bold;
+		font-size: 50px;
+		color:#554E9F;
+		margin-top: 100px;
+
+	}
+
+	.col-md-4{
+		margin-top: 50px;
+		margin-bottom:50px;
+		i{
+			border-radius: 100%;
+			width: 90px;
+			height: 90px;
+			text-align: center;
+			line-height: 90px;
+			font-size: 30px;
+			border:2px solid #FE6500;
+			display: inline-block;
+		} 
+
+		h3{
+			display: inline-block;
+			font-weight: bold;
+		}
+
+	}
+}

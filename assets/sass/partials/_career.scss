@@ -1,0 +1,49 @@
+#career{
+
+	h2{
+		color:#554E9F;
+		font-family: 'Amatic SC', cursive;
+		font-size: 50px;
+		font-weight: bold;
+		text-align: center;
+		margin-top: 100px;
+	}
+
+	p{
+		margin-top: 30px;
+	}
+
+	.panel-bar .panel{
+		margin-bottom: 30px;
+		padding:10px 20px;
+		border-radius: 0px;
+		box-shadow:0px 0px 5px gray;
+		transition: all .2s ease;
+		i{
+			color:#554E9F;
+			padding-left: 30px;
+		}
+
+		.fa-map-marker{
+			padding-left:0;
+		}
+
+
+		span{
+			color:#9B9B9B;
+		}
+
+		&:hover{
+			color:white;
+			background:#554E9F;
+			cursor: pointer;
+			
+			i{
+				color:#FE6500;
+			}
+
+		}
+
+	}
+
+}
